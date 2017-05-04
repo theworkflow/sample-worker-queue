@@ -34,6 +34,6 @@ client.push({ test: true }, (err, result) => {
 
 [MIT](LICENSE.md)
 
-[version]: https://www.npmjs.com/package/sample-worker-queue
+[version]: https://www.npmjs.com/package/worker-queue
 [build]: https://travis-ci.org/theworkflow/sample-worker-queue
 [license]: https://raw.githubusercontent.com/theworkflow/sample-worker-queue/master/LICENSE
