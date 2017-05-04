@@ -1,6 +1,6 @@
 {
   "name": "worker-queue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Process jobs in parallel based on concurrency",
   "main": "index.js",
   "scripts": {
