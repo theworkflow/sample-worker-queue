@@ -1,0 +1,24 @@
+{
+  "name": "worker-queue",
+  "version": "0.0.1",
+  "description": "Process jobs in parallel based on concurrency",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "npm run unit -- --coverage --reporter lcov",
+    "lint": "standard",
+    "test": "npm run lint && npm run unit",
+    "unit": "lab --verbose --threshold 100"
+  },
+  "keywords": [
+    "queue",
+    "worker"
+  ],
+  "author": "Jeremiah Harlan <jeremiah.harlan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "code": "4.0.0",
+    "lab": "13.0.4",
+    "standard": "10.0.2",
+    "testdouble": "2.1.2"
+  }
+}
